@@ -1,6 +1,6 @@
 function fetchData(){
-    //fetch("http://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish")
-    fetch("http://makeup-api.herokuapp.com/api/v1/products.json")
+    fetch("http://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish")
+    //fetch("http://makeup-api.herokuapp.com/api/v1/products.json")
     .then(response => {
         console.log(response);
         if(! response.ok){
